@@ -1,0 +1,4 @@
+1.Run as--> Maven Clean
+2.Run as--> Maven Install
+3.In command line environment; cd {project.path}.target folder
+4.Execute follow command:mvn install:install-file -Dfile=DataMining-1.0.jar -DgroupId=com.hust -DartifactId=DataMining -Dversion=1.0 -Dpackaging=jar
